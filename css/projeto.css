@@ -1,0 +1,37 @@
+body{
+    background-color: #C5C1C1;
+	font-size: 16px;
+	font-family: arial, sans-serif;
+	width: 900px;
+}
+#principal{
+	width: 900px;
+}
+#Menu{
+	color:black;
+	background:gray;
+	padding: 15px;
+	border: 1px solid gray;
+	width: 870px;
+}
+a {
+	color: #B29696;
+	text-decoration:none;
+	font-weight: bold;
+	padding:5px;
+}
+#conteudo{
+	background: #e8e8d9;
+	padding:10px;
+}
+.centralizar{
+	text-align: center;
+}
+h1{
+	color:#433737;
+	font-size:20px;
+	text-align: center;
+}
+.img-campanha{
+	border: 10px solid #ADA5A5;
+}
