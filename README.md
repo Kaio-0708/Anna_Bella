@@ -35,7 +35,7 @@ O site utiliza um esquema de cores neutras, com fundo cinza claro e textos em pr
 ## Como Executar o Projeto
 
 1. Clone o repositório:
-   git clone https://github.com/seu-usuario/anna-bella-oficial.git
+   git clone https: https://github.com/Kaio-0708/Anna_Bella
 
 2. Navegue até o diretório do projeto:
 cd anna-bella-oficial
