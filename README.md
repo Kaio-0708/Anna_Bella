@@ -30,3 +30,26 @@ O projeto está organizado da seguinte forma:
 ## Estilo e Design
 
 O site utiliza um esquema de cores neutras, com fundo cinza claro e textos em preto e tons de marrom. A tipografia é simples e legível, utilizando Arial e fontes sans-serif. As imagens das campanhas publicitárias são destacadas com bordas sólidas para criar um visual elegante.
+
+
+## Como Executar o Projeto
+
+1. Clone o repositório:
+   git clone https://github.com/seu-usuario/anna-bella-oficial.git
+
+2. Navegue até o diretório do projeto:
+cd anna-bella-oficial
+
+3. Abra os arquivos HTML em um navegador web para visualizar o site.
+
+
+## Contribuição
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull requests para melhorias e correções.
+
+
+
+## Autor
+
+Kaio Vitor - https://github.com/Kaio-0708
+
+
