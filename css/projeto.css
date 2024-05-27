@@ -1,37 +1,144 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
 body{
     background-color: #C5C1C1;
 	font-size: 16px;
 	font-family: arial, sans-serif;
-	width: 900px;
+	width: 100%;
+	text-align: center;
+	align-items: center;
+	height: 100%;
 }
+
 #principal{
-	width: 900px;
+	width: 100%;
 }
+
 #Menu{
 	color:black;
 	background:gray;
 	padding: 15px;
 	border: 1px solid gray;
-	width: 870px;
+	width: 100%;
+	text-align: center;
 }
-a {
+
+a{
 	color: #B29696;
 	text-decoration:none;
 	font-weight: bold;
 	padding:5px;
 }
+
 #conteudo{
-	background: #e8e8d9;
 	padding:10px;
 }
-.centralizar{
-	text-align: center;
-}
+
 h1{
 	color:#433737;
 	font-size:20px;
 	text-align: center;
+	margin: 10px;
 }
+
 .img-campanha{
 	border: 10px solid #ADA5A5;
+	margin: 10px;
+}
+
+.contato{
+	margin-top: 10px;
+	padding: 10px;
+	border: 1px solid black;
+	margin-left: 35%;
+	margin-right: 35%;
+}
+
+.rodape{
+	margin: 10px;
+	padding: 10px;
+	bottom: 10px;
+}
+
+/* Responsividade */
+@media (max-width: 800px) {
+    body{
+    	flex-direction: column;
+    }
+
+    #principal{
+    	margin: 1%;
+    }
+
+    #principal img{
+    	width: 480px;
+    }
+
+    a{
+    	font-size: 20px;
+    }
+
+    h1{
+    	font-size: 40px;
+    }
+    
+    #conteudo p {
+    	font-size: 30px;
+    }
+
+    .img-campanha{
+    	width: 400px;
+    }
+
+    .contato {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+
+@media (max-width: 480px) {
+    body {
+        flex-direction: column;
+    }
+
+    #principal{
+    	margin: 1%;
+    }
+
+    #principal img{
+    	width: 380px;
+    }
+    
+    h1{
+    	font-size: 30px;
+    }
+
+    #conteudo p{
+        font-size: 20px;
+    }
+     
+    .img-campanha{
+    	width: 300px;
+    }
+
+    .contato {
+        width: 100%;
+    }
+}
+
+@media (min-width: 1500){
+	h1{
+		font-size: 50px;
+	}
+
+	.rodape{
+		margin: 5px;
+		padding: 0;
+	}
 }
